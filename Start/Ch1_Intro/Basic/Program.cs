@@ -19,13 +19,16 @@ Console.WriteLine(c5);
 
 
 // TODO: Arrays are contiguous storage of the same variable type
-
+int[] nums = new int[5];
+int[] nums2 = {1, 2, 3, 4, 5};
 
 // TODO: implicitly typed array
+var a= new[] {"abc","def"};
 
 
 // TODO: multiple type array
-
+object[] obs = {"ABC", 1,2,3,true,false};
 
 // TODO: Tuples are lightweight data structures that group multiple data elements
-
+(string, int,bool) t1 = ("abc", 15, false);
+Console.WriteLine($"{t1.Item1}, {t1.Item2}");
